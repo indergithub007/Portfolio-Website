@@ -1,0 +1,60 @@
+#foter {
+    width: 100vw;
+    min-height: 8remrem; /* Increased height to accommodate content */
+    background: rgb(40, 40, 40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    color: #f0f0f0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+    border-top: 1px solid #333;
+    transition: background 0.3s ease;
+    text-align: center; /* Ensures text within elements is centered */
+}
+
+#footer:hover {
+    background: rgb(50, 50, 50);
+}
+
+.footerTitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.footerPara {
+    font-weight: 400;
+    font-size: 1.2rem;
+    max-width: 40rem;
+    padding: 0 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.footerEnd {
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.link {
+    margin: 0 0.75rem;
+}
+
+/* Responsive Design
+@media (max-width: 768px) {
+    .footerTitle {
+        font-size: 2rem;
+    }
+
+    .footerPara {
+        font-size: 1rem;
+        padding: 0 0.5rem;
+    }
+
+    .footerEnd {
+        font-size: 0.9rem;
+    }
+} */
+
